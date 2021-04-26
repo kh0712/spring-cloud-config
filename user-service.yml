@@ -1,0 +1,6 @@
+spring: 
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/desktop/etc/msa/user
+    username: sa
+    password: '{cipher}695c82a743688b8dc20650a8841090e536b1bc71f2e99c74c1be3c78ba245bf3'
+    driver-class-name: org.h2.Driver
