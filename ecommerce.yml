@@ -1,7 +1,7 @@
 token:
   expiration_time: 15000020
-  #echo 'silvernine-tech-spring-boot-jwt-tutorial-secret-silvernine-tech-spring-boot-jwt-tutorial-secret'|base64
-  secret: c2lsdmVybmluZS10ZWNoLXNwcmluZy1ib290LWp3dC10dXRvcmlhbC1zZWNyZXQtc2lsdmVybmluZS10ZWNoLXNwcmluZy1ib290LWp3dC10dXRvcmlhbC1zZWNyZXQK
+  #token -> config server encrypt
+  secret: '{cipher}AQBITFIAKDmGdjikCrSOsCLFuym0UhYqwDhRGQANXtJ/Urv+hQoEMhZkq+tenZPSjiNEavNkVoNyx9q0Xgf8fF1R1xu0TgEqJP/K0oJ4gb0rMdp8saQEMOS3ckClOBBuNkrxmWYr1irkeomf8Po30W4pW5WNo5jVOKSyYyVVxX/2GD1iqof/bAmRZHzV5LN+YGZbrTtKs/5cttWj21zCUjbKEq4p7F4CRdYRsHLcBrWz+4GAHvNMWHU8r5k2kaetoy3FK6HFQesJINAwRaV6ZCq8V8an/2J4g/1vvG3GDNTEP04wWlE5wqvZJmt81n5pNXmlJ9TZN46+YEPnCA5/iPIeTeMVC+jzQLs5oTB6R8+XbYvvR99siKZGlfBhcR5rCXc='
 
 gateway:
   ip: 192.168.35.196
