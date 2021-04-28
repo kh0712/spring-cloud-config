@@ -4,3 +4,6 @@ spring:
     username: sa
     password: '{cipher}AQAQsbPCccRwDVrBTy8+IhsjmUyh1G6nXSSOiS6iuhvW9GfHRMG/S70kivegjLq0QpkKzz/mOOw/AJ2Tj/eOVtrn+Q1wufI+FQwafQiZHT+ubUJhQIj6W1OdPUeP9LDkTKM7jmD+bMsyGglwW7U+/BxNAzcQQAnpp0JDbOUwO7N/bGbHHh23J0jCnKwan4rnKzLTNvlmQm+vFZvlJrWEoA3Zr1SCcvg9N5ZAzjuXjCns/ZrwEPpTiXSfxw+IA1VcCN23OA9u4m3RF/oJSedEpPXbMFZYuCFPJTi/wIwxXgrulkcMyaZnNDmAcFk2EybFaivqOJpg4LP9rcvoyrsuW+aKgwmRbPBsetS2UIqaSyG+2nvo7vAjyRyEITYUVeglL/o='
     driver-class-name: org.h2.Driver
+
+order_service:
+  url: http://127.0.0.1:8000/order-service/%s/orders
