@@ -1,9 +1,9 @@
 spring: 
   datasource:
-    url: jdbc:h2:tcp://localhost/~/desktop/etc/msa/user
-    username: sa
-    password: '{cipher}AQAQsbPCccRwDVrBTy8+IhsjmUyh1G6nXSSOiS6iuhvW9GfHRMG/S70kivegjLq0QpkKzz/mOOw/AJ2Tj/eOVtrn+Q1wufI+FQwafQiZHT+ubUJhQIj6W1OdPUeP9LDkTKM7jmD+bMsyGglwW7U+/BxNAzcQQAnpp0JDbOUwO7N/bGbHHh23J0jCnKwan4rnKzLTNvlmQm+vFZvlJrWEoA3Zr1SCcvg9N5ZAzjuXjCns/ZrwEPpTiXSfxw+IA1VcCN23OA9u4m3RF/oJSedEpPXbMFZYuCFPJTi/wIwxXgrulkcMyaZnNDmAcFk2EybFaivqOJpg4LP9rcvoyrsuW+aKgwmRbPBsetS2UIqaSyG+2nvo7vAjyRyEITYUVeglL/o='
-    driver-class-name: org.h2.Driver
+    url: jdbc:mysql://localhost:3306/ecommerce
+    username: account
+    password: '{cipher}AQBQGhLancOru+VsQVmO2G9swdYgE4b0HNmXuud6p5VFfyZAsdwA32Qq3fCbI6ZkGHPFJpuC/OHqiUZH2ps6608DgK5/KjdVmwiU/yzm1GqThxx3JzcE/LRYHNKfK1vJ+JnCZKHw0Z5cDaiBUr7HjG8GbWVkQTUbaF3/CSNuOAMyMvvAKlvZCEBT9qvcyqTNLS0xlfcsBNRdtvAr2QCnqZLhMbkO7eOrQeSLqeBuHYTx8rPmSz6hRF95f3tnWFu0L5aPwjrlyVuDqLHQ9fqyHzErP1zbdHhFYzlgHVJ0LTrnZHdg44IXWs8JKFFdv4CHJTniQcypdT/n488ugm54ZniBVdT5QXkxj75nRDqpZndcKiXgcEM+kvsznCosanjYxRI='
+    driver-class-name: org.mariadb.jdbc.Driver
 
 order_service:
   url: http://order-service/%s/orders
