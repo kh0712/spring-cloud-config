@@ -1,6 +1,6 @@
 spring: 
   datasource:
-    url: jdbc:mysql://localhost:3306/ecommerce
+    url: jdbc:mysql://mariadb:3306/ecommerce
     username: account
     password: '{cipher}AQBQGhLancOru+VsQVmO2G9swdYgE4b0HNmXuud6p5VFfyZAsdwA32Qq3fCbI6ZkGHPFJpuC/OHqiUZH2ps6608DgK5/KjdVmwiU/yzm1GqThxx3JzcE/LRYHNKfK1vJ+JnCZKHw0Z5cDaiBUr7HjG8GbWVkQTUbaF3/CSNuOAMyMvvAKlvZCEBT9qvcyqTNLS0xlfcsBNRdtvAr2QCnqZLhMbkO7eOrQeSLqeBuHYTx8rPmSz6hRF95f3tnWFu0L5aPwjrlyVuDqLHQ9fqyHzErP1zbdHhFYzlgHVJ0LTrnZHdg44IXWs8JKFFdv4CHJTniQcypdT/n488ugm54ZniBVdT5QXkxj75nRDqpZndcKiXgcEM+kvsznCosanjYxRI='
     driver-class-name: org.mariadb.jdbc.Driver
